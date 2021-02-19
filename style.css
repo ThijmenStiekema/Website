@@ -10,20 +10,27 @@ body {
   text-align: center;
 }
 
+p {
+font-size: 15px; 
+}
+
 /* Style the header */
 .header {
   position: fixed;
-  background-color: Black;
+  background-color: #121212;
   padding: 5px;
   text-align: Left;
   font-size: 10px;
-  color: White; 
+  color: white; 
   width:100%
 }
 
 /* Left and right column */
 .column.side {
   width: 20%;
+  background-image: url('846241.jpg');"
+  background-attachment: fixed;
+  
 }
 
 .column {
@@ -35,15 +42,17 @@ body {
 /* Middle column */
 .column.middle {
   width: 60%;
-  Background-color:	#282828
+  Background-color: #121212;
+  
 }
 
 /* Style the footer */
 .footer {
-  background-color: black;
+  background-color: lightgrey;
   padding: 5px;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
+
