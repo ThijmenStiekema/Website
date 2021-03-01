@@ -6,22 +6,39 @@
 body {
   margin: 0px;
   font-family: Arial, Helvetica, sans-serif;
-  color: white;
+ color:white;
   text-align: center;
 }
 
 p {
-font-size: 15px; 
+font-size: 1em; 
+}
+
+h2 {
+font-size: 1.5em; 
+}
+h3{
+ font-size: 1.2em; 
+}
+
+/*linkstijl*/
+a{
+color: #5daee6ff;
+text-decoration: none;
+}
+a:hover {
+  color: #266ab5ff;
+  text-decoration: none;
 }
 
 /* Style the header */
 .header {
   position: fixed;
-  background-color: #121212;
+  background-color:#101010;
   padding: 5px;
   text-align: Left;
-  font-size: 10px;
-  color: white; 
+  font-size: 0.6em;
+  color: #5daee6ff;
   width:100%
 }
 
@@ -29,8 +46,7 @@ font-size: 15px;
 .column.side {
   width: 20%;
   background-image: url('846241.jpg');"
-  background-attachment: fixed;
-  
+  background-attachment: fixed ;
 }
 
 .column {
@@ -42,17 +58,27 @@ font-size: 15px;
 /* Middle column */
 .column.middle {
   width: 60%;
-  Background-color: #121212;
-  
+  Background-color: #202020;
+  padding-top: 1vh;
+  padding-left: 5vh;
+  padding-right: 5vh;
 }
 
 /* Style the footer */
 .footer {
-  background-color: lightgrey;
-  padding: 5px;
+  font-size: 1em;
+  background-color: #101010;
+  padding: 2vh;
   text-align: center;
   position: fixed;
   bottom: 0;
   width: 100%;
 }
 
+.Bronnen{
+  font-size: 1vw;
+  background-color: #202020;
+  padding: 1vw;
+  margin: 5%;
+  margin-top: 3vh;
+}
