@@ -54,6 +54,7 @@ a:hover {
   width: 15%;
   background-image: url('846241.jpg');"
   background-attachment: top;
+  min-height: 100vh;
 }
 
 /* Middle column */
@@ -80,7 +81,7 @@ a:hover {
   width: 100%;
 }
 
-.Bronnen{
+.Bronnen1{
   font-size: 1vw;
   background-color: #202020;
   padding: 0.3vw;
@@ -90,7 +91,28 @@ a:hover {
   border: 1px solid gray;
 }  
 
+.Bronnen2{
+  font-size: 0em;
+}  
+
 @media (max-aspect-ratio: 1/1){
-  .column.side {width: 0%;}
-  .column.middle {width: 100%;}
+  .column.side {
+    display: none;
+    }
+  
+  .column.middle {
+    width: 100%;
+    border: 0px;
+  }
+
+  .Bronnen1{
+    display: none;
+    }  
+
+  .Bronnen2{
+    font-size: 1em;
+    border-top: 
+    1px solid gray;
+    margin-top: 1vh;
+  }  
 }
