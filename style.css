@@ -12,13 +12,26 @@ body {
 
 p {
 font-size: 1em; 
+margin: 0.8em;
 }
 
 h2 {
 font-size: 1.5em; 
 }
+
+ul{
+
+list-style-type: square;
+}
+
+li{
+margin:0.6em;
+font-size: 1em;
+}
+
 h3{
- font-size: 1.2em; 
+font-size: 1.2em; 
+margin: 0px;
 }
 
 /*linkstijl*/
@@ -52,7 +65,7 @@ a:hover {
 /* Left and right column */
 .column.side {
   width: 15%;
-  background-image: url('846241.jpg');"
+  background-image: url('/Images/846241.jpg');
   background-attachment: top;
   min-height: 100vh;
 }
@@ -100,6 +113,18 @@ iframe{
 .Bronnen2{
   font-size: 0em;
 }  
+@media (max-aspect-ratio: 13/10){
+.Bronnen1{
+    display: none;
+    }  
+
+  .Bronnen2{
+    font-size: 1em;
+    border-top: 
+    1px solid gray;
+    margin-bottom: 5vh;
+  }
+}
 
 @media (max-aspect-ratio: 13/10){
   .column.side {
@@ -110,18 +135,6 @@ iframe{
     width: 100%;
     border: 0px;
   }
-
-  .Bronnen1{
-    display: none;
-    }  
-
-  .Bronnen2{
-    font-size: 1em;
-    border-top: 
-    1px solid gray;
-    margin-bottom: 5vh;
-  }
-
   iframe{
     height: 50vw;
     width: 80vw;
