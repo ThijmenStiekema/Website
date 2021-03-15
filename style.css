@@ -20,7 +20,6 @@ font-size: 1.5em;
 }
 
 ul{
-
 list-style-type: square;
 }
 
@@ -59,14 +58,13 @@ a:hover {
 .column {
   margin-top: 50px; 
   float: left;
-  height: 100vh;
 }
 
 /* Left and right column */
 .column.side {
   width: 15%;
   background-image: url('/Images/846241.jpg');
-  background-attachment: top;
+  background-size: cover;
   min-height: 100vh;
 }
 
