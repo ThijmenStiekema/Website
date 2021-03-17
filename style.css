@@ -140,13 +140,19 @@ iframe{
 }
 
 @media (max-aspect-ratio: 13/10){
-  .column.side {
+  .columnsideL {
     display: none;
     }
-  
+
+  .columnsideR {
+    display: none;
+    }
+
   .column.middle {
     width: 100%;
     border: 0px;
+    margin-left: 0;
+    margin-right: 0;
   }
   iframe{
     height: 50vw;
