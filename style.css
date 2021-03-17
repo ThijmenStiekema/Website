@@ -14,6 +14,9 @@ p {
 font-size: 1em; 
 margin: 0.8em;
 }
+h1{
+font-size: 2.1em;
+}
 
 h2 {
 font-size: 1.5em; 
@@ -47,7 +50,7 @@ a:hover {
 .header {
   position: fixed;
   background-color:#101010;
-  padding: 5px;
+  height: 5em;
   text-align: Left;
   font-size: 0.6em;
   color: #5daee6ff;
@@ -55,8 +58,12 @@ a:hover {
   z-index: 10;
 }
 
+.Title{
+ float: left;
+
+}
 .column {
-  margin-top: 50px; 
+  margin-top: 40px; 
   float: left;
 }
 
@@ -126,14 +133,14 @@ iframe{
 .Bronnen2{
   font-size: 0em;
 }  
+
 @media (max-aspect-ratio: 13/10){
 .Bronnen1{
     display: none;
     }  
 
   .Bronnen2{
-    font-size: 1em;
-    border-top: 
+    font-size: 1em; 
     1px solid gray;
     margin-bottom: 5vh;
   }
@@ -161,6 +168,23 @@ iframe{
   
 }
 
+.Menu{
+  float: left;
+}
+
+.btn {
+  float: right;
+  background-color: #101010;
+  border: none; /* Remove borders */
+  color: white; /* White text */
+  font-size: 3em; /* Set a font size */
+  cursor: pointer; /* Mouse pointer on hover */
+  margin: 10px;
+}
+
+i: hover{
+  color: gray;
+}
 
 
 #menuToggle{
@@ -168,6 +192,7 @@ iframe{
     position: relative;
     z-index: 10;
     user-select: none;
+    margin: 1.5em;
 }
 #menuToggle input{
     display: block;
@@ -217,7 +242,7 @@ iframe{
     width: 30vw;
     height: 150vh;
     margin: -100px 0 0 -50px;
-    padding-top: 155px;
+    padding-top: 20vh;
     background: #101010;
     list-style: none;
     transform-origin: 0% 0%;
