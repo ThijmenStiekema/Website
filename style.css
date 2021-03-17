@@ -51,7 +51,8 @@ a:hover {
   text-align: Left;
   font-size: 0.6em;
   color: #5daee6ff;
-  width:100%
+  width:100%;
+  z-index: 10;
 }
 
 .column {
@@ -59,13 +60,24 @@ a:hover {
   float: left;
 }
 
-/* Left and right column */
-.column.side {
+/* Left column */
+.columnsideL {
   width: 15%;
   background-image: url('/Images/846241.jpg');
   background-size: cover;
   min-height: 100vh;
-  background-position: fixed;
+  position: fixed;
+  z-index: 1;
+}
+
+.columnsideR {
+  width: 15%;
+  background-image: url('/Images/846241.jpg');
+  background-size: cover;
+  min-height: 100vh;
+  position: fixed;
+  z-index: 1;
+  margin-left: 85%;
 }
 
 
@@ -81,6 +93,7 @@ a:hover {
   width: 70%;
   border: 1px solid gray;
   position: relative;
+  Margin-left: 15%;
 }
 
 /* Style the footer */
@@ -92,6 +105,7 @@ a:hover {
   position: fixed;
   bottom: 0;
   width: 100%;
+  z-index: 10;
 }
 
 .Bronnen1{
