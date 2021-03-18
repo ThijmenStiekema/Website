@@ -15,7 +15,7 @@ font-size: 1em;
 margin: 0.8em;
 }
 h1{
-font-size: 2.1em;
+font-size: max(2.5vh,2.1em);
 }
 
 h2 {
@@ -41,6 +41,7 @@ a{
 color: #5daee6ff;
 text-decoration: none;
 }
+
 a:hover {
   color: #266ab5ff;
   text-decoration: none;
@@ -50,7 +51,8 @@ a:hover {
 .header {
   position: fixed;
   background-color:#101010;
-  height: 5em;
+  min-height: 4.5em;
+  height: 6vh;
   text-align: Left;
   font-size: 0.6em;
   color: #5daee6ff;
@@ -92,8 +94,8 @@ a:hover {
 .column.middle {
   Background-color: #202020;
   padding-top: 1vh;
-  padding-left: 5vh;
-  padding-right: 5vh;
+  padding-left: 3vw;
+  padding-right: 3vw;
   padding-bottom: 5vh;
   height: auto;
   min-height: 100vh;
@@ -122,6 +124,7 @@ a:hover {
   margin: 5%;
   margin-top: 65px; 
   border: 1px solid gray;
+  border-radius: 4px;
 }
 
 iframe{
@@ -177,15 +180,10 @@ iframe{
   background-color: #101010;
   border: none; /* Remove borders */
   color: white; /* White text */
-  font-size: 3em; /* Set a font size */
+  font-size: max(3.5vh, 2.5em);
   cursor: pointer; /* Mouse pointer on hover */
   margin: 10px;
 }
-
-i: hover{
-  color: gray;
-}
-
 
 #menuToggle{
     display: block;
@@ -242,7 +240,7 @@ i: hover{
     width: 30vw;
     height: 150vh;
     margin: -100px 0 0 -50px;
-    padding-top: 20vh;
+    padding-top: 10em;
     background: #101010;
     list-style: none;
     transform-origin: 0% 0%;
@@ -251,11 +249,10 @@ i: hover{
 }
 #menu li{
     position: relative;
-    padding: 10px 0;
-    font-size: 22px;
+    padding: 1vh 0;
+    font-size: 3vw;
     display: block;
 }
 #menuToggle input:checked ~ ul{
     transform: translate(0, 0);
 }
-
