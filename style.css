@@ -61,9 +61,9 @@ a:hover {
 }
 
 .Title{
- float: left;
-
+ float: left;\
 }
+
 .column {
   margin-top: 40px; 
   float: left;
@@ -144,7 +144,6 @@ iframe{
 
   .Bronnen2{
     font-size: 1em; 
-    1px solid gray;
     margin-bottom: 5vh;
   }
 }
@@ -190,7 +189,7 @@ iframe{
     position: relative;
     z-index: 10;
     user-select: none;
-    margin: 1.5em;
+    margin: max(0.5vh,1em);
 }
 #menuToggle input{
     display: block;
@@ -255,4 +254,9 @@ iframe{
 }
 #menuToggle input:checked ~ ul{
     transform: translate(0, 0);
+}
+
+
+table,td,th{
+  border: 3px white;
 }
